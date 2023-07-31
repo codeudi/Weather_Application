@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/fc60aaa33c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+    <h1 id="message">A simple weather application with an friendly user interface</h1>
+    <div id="check1">
+        <div id="sec1">
+                <button id="butt"><img src="icons/magnifying-glass-solid.svg" id="magnifying"/></button>
+                <input type="text" id="location" placeholder="Enter your location"/>
+        </div>
+        <div id="sec2">
+            <div id="box1" class="box">
+                <i class="fa-solid fa-location-dot"></i>
+                <p id="city"></p>
+            </div>
+            <div id="box2" class="box">
+                <img src=".png" id="image"/>
+                <div id="temp">
+                    <p id="celsius">00.00°</p>
+                    <p id="desc">Null</p>
+                </div>
+            </div>
+            <hr class="box" id="line">
+            <div id="box3">
+                <div id="line1" class="box">
+                    <div id="pos1" class="pos">
+                        <p id="feelslike" class="data">Feels Like</p>
+                        <p id="feeltemp" class="units">0</p>
+                    </div>
+                    <div id="pos2" class="pos">
+                        <p id="MinTemp" class="data">Min Temp</p>
+                        <p id="mintemperature" class="units">0</p>
+                    </div>
+                    <div id="pos3" class="pos">
+                        <p id="humiditiy" class="data">Humidity</p>
+                        <p id="percentage" class="units">0</p>
+                    </div>
+                </div>
+                <div id="line2" class="box">
+                    <div id="pos4" class="pos">
+                        <p id="windspeed" class="data">Wind Speed</p>
+                        <p id="km/hr" class="units">0</p>
+                    </div>
+                    <div id="pos5" class="pos">
+                        <p id="Maxtemp" class="data">Max temp</p>
+                        <p id="maxtemperature" class="units">0</p>
+                    </div>
+                    <div id="pos6" class="pos">
+                        <p id="Pressure" class="data">Pressure</p>
+                        <p id="mbar" class="units">0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+ </body>
+ </html>
